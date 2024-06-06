@@ -25,3 +25,29 @@ Simplest form of AI
 Does nothing, just... passes
 
 # Boolean Operators
+
+# Ternary Operator
+Condense series of code into a single line
+ "result" if(condition) else "result"
+
+print("access granted") if (age>=18) and has_permission else print("access denied")
+
+# Match-case
+Control flow, similar to switch statement in other programming languages
+
+
+day_number = 3
+
+match day_number:
+    case 1:
+        day_name = "Monday"
+    case 2:
+        day_name = "Tueday"
+    case 3:
+        day_name="Wednesday"
+    case 4:
+        day_name="Thursday"
+
+print(day_name)
+
+
